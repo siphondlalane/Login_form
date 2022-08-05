@@ -9,6 +9,7 @@
 	<link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'>
   </head>
   <body>
+	<script src="script.js"></script>
 	<div class="section">
 		<div class="container">
 			<div class="row full-height justify-content-center">
@@ -23,15 +24,20 @@
 									<div class="center-wrap">
 										<div class="section text-center">
 											<h4 class="mb-4 pb-3">Log In</h4>
+											
+
+											<!--Email Input-->
 											<div class="form-group">
 												<input type="email" name="logemail" class="form-style" placeholder="Email" id="logemail" autocomplete="off" required>
 												<i class="input-icon uil uil-at"></i>
 											</div>
+
+											<!--Password Input-->
 											<div class="form-group mt-2">
 												<input type="password" name="logpass" class="form-style" placeholder="Password" id="logpass" autocomplete="off" required>
 												<i class="input-icon uil uil-lock-alt"></i>
 											</div>
-											<a href="#" class="btn mt-4">submit</a>
+											<button class="btn mt-4" onclick="getInfo()">submit</button>
                             				<p class="mb-0 mt-4 text-center"><a href="#0" class="link">Forgot your password?</a></p>
 				      					</div>
 			      					</div>
@@ -61,7 +67,7 @@
 												<input type="phone" name="phoneNum" class="form-style" placeholder="Mobile Number" id="phoneNum" autocomplete="off" required>
 												<i class="input-icon uil uil-phone-alt"></i>
 											</div>
-											<a href="#" class="btn mt-4">submit</a>
+											<button class="btn mt-4">submit</button>
 				      					</div>
 			      					</div>
 			      				</div>
